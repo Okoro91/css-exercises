@@ -1,9 +1,22 @@
+@font-face {
+    font-family: Raleway;
+    src: url('fonts/raleway/Raleway.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300 800;
+  }
+  @font-face {
+  font-family: Raleway;
+  src: url('fonts/raleway/Raleway-Italic.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: italic;
+}
+
 body {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 10%);
     line-height: 1.5;
-    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: Raleway, "PT Sans", Calibri, Tahoma, sans-serif;
   }
   
   .content-width {
@@ -39,20 +52,23 @@ body {
 
 h1 {
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 350;
   }
   
   h2 {
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 570;
   }
   
   h3 {
     font-size: 1.75rem;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 450;
   }
   
   p {
     font-size: 1.125rem;
+  }
+  strong {
+    font-weight: 600;
   }
